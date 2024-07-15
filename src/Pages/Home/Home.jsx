@@ -1,5 +1,6 @@
 import Section_Title from "../../Componets/Sheared_Components/Section_Title/Section_Title";
 import Header from "./Header/Header";
+import Home_Slider_Menu from "./Home_Slider_Menu/Home_Slider_Menu";
 
 
 const Home = () => {
@@ -14,7 +15,10 @@ const Home = () => {
 					subTitle="---From 11:00am at 10:00pm---"
 				/>
 			</div>
-			{/* Menu Slider com  */}
+			{/* Home Menu Slider com  */}
+			<div className="container mx-auto px-5 mt-10 lg:px-10"> 
+				<Home_Slider_Menu />
+			</div>
 			{/* Section Title com  */}
 			{/* Overlay  */}
 			{/* Section Title com  */}
