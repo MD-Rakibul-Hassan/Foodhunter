@@ -5,7 +5,7 @@ const Menu_Item = ({ item,style,txt }) => {
 	return (
 		<div>
 			<div
-				className={`container mx-auto ${style} grid-clos-1 lg:grid grid-cols-2  px-10  justify-center items-center`}
+				className={`${style} grid-clos-1 lg:grid grid-cols-2  px-10  justify-center items-center`}
 			>
 				{item &&
 					item?.map((menuItem) => {

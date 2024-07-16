@@ -24,13 +24,15 @@ const Home = () => {
 			</div>
 			{/* Section Title com  */}
 			<div className="mt-10 lg:mt-20">
-				<Section_Title
-					title="FORM OUR MENU"
-					subTitle="---Check it out---"
-				/>
+				<Section_Title title="FORM OUR MENU" subTitle="---Check it out---" />
 			</div>
-		  {/* Menu Item com  */}
-		  <Menu_Item item={salads} style='mt-10' txt='View Full Menu '/>
+			{/* Menu Item com  */}
+			<div className="container mx-auto">
+				<Menu_Item item={salads} style="mt-10" txt="View Full Menu " />
+			  <div className="w-full mt-20 py-28  bg-black flex justify-center ">
+				  <h1 className="text-white text-3xl lg:text-7xl">Call Us : 01703890915</h1>
+				</div>
+			</div>
 			{/* Section Title com  */}
 			{/* Cart com  */}
 			{/* Section Title com  */}
