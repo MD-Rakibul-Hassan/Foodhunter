@@ -30,7 +30,7 @@ const Home = () => {
 				/>
 			</div>
 		  {/* Menu Item com  */}
-		  <Menu_Item item={salads} style='mt-10'/>
+		  <Menu_Item item={salads} style='mt-10' txt='View Full Menu '/>
 			{/* Section Title com  */}
 			{/* Cart com  */}
 			{/* Section Title com  */}
