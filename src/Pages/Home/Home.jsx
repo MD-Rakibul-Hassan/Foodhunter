@@ -1,3 +1,4 @@
+import Cart from "../../Componets/Sheared_Components/Card/Cart";
 import Menu_Item from "../../Componets/Sheared_Components/Menu_Item/Menu_Item";
 import Section_Title from "../../Componets/Sheared_Components/Section_Title/Section_Title";
 import useGet_Menu from "../../Hooks/Get_Menu/useGet_Menu";
@@ -33,8 +34,14 @@ const Home = () => {
 				  <h1 className="text-white text-3xl lg:text-7xl">Call Us : 01703890915</h1>
 				</div>
 			</div>
-			{/* Section Title com  */}
-			{/* Cart com  */}
+		  {/* Section Title com  */}
+		  <div className="mt-10 lg:mt-20">
+			  <Section_Title title='Chef Recommends' subTitle='--Should Try--' />
+		  </div>
+		  {/* Cart com  */}
+		  <div className="container mx-auto mt-20">
+			  <Cart cardItem={salads}/>
+		  </div>
 			{/* Section Title com  */}
 			{/* Testimonails  */}
 			{/* Footer com  */}
