@@ -4,6 +4,7 @@ import Section_Title from "../../Componets/Sheared_Components/Section_Title/Sect
 import useGet_Menu from "../../Hooks/Get_Menu/useGet_Menu";
 import Header from "./Header/Header";
 import Home_Slider_Menu from "./Home_Slider_Menu/Home_Slider_Menu";
+import QuealityFood from "./QuealityFood/QuealityFood";
 
 
 const Home = () => {
@@ -39,10 +40,11 @@ const Home = () => {
 			  <Section_Title title='Chef Recommends' subTitle='--Should Try--' />
 		  </div>
 		  {/* Cart com  */}
-		  <div className="container mx-auto mt-20">
+		  <div className="container mx-auto mt-20 px-5">
 			  <Cart cardItem={salads}/>
 		  </div>
-			{/* Section Title com  */}
+		  {/* Queality food */}
+		  <QuealityFood />
 			{/* Testimonails  */}
 			{/* Footer com  */}
 		</div>
