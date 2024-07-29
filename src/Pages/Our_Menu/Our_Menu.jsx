@@ -10,11 +10,11 @@ import soupImg  from '../../assets/menu/soup-bg.jpg'
 const Our_Menu = () => {
 	const { salads, dessert, pizza, soup, offered, drinks } = useGet_Menu();
     const menu_item = [
-        {item : salads, img:saladImg},
-        {item : dessert, img:dessertImg},
-        {item : soup, img:soupImg},
-        {item : pizza, img:pizzaImg},
-    ]
+        { item: salads, img: saladImg },
+        { item: dessert, img: dessertImg },
+        { item: soup, img: soupImg },
+        { item: pizza, img: pizzaImg },
+    ];
 	return (
 		<div>
 			<Overlay
