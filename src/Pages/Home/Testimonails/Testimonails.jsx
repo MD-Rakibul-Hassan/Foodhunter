@@ -8,7 +8,7 @@ const Testimonails = () => {
 	const data = useGet_Open_Data("./reviews.json");
 
 	return (
-		<div className="my-20">
+		<div className="my-20 ">
 			<Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 				{/* <SwiperSlide>Slide 1</SwiperSlide> */}
 				{data?.map((review, index) => {

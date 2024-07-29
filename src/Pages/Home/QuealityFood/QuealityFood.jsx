@@ -14,7 +14,7 @@ const QuealityFood = () => {
 					<div className='mt-10'>
 						<Section_Title title="Quality food" subTitle="--our services--" />
 					</div>
-					<div className="hero-content flex-col lg:flex-row justify-center gap-5  text-neutral-content ">
+					<div className="hero-content flex-col lg:flex-row justify-center gap-5  text-neutral-content py-20">
 						<div>
 							<img src={featuredImage} alt="" />
 						</div>

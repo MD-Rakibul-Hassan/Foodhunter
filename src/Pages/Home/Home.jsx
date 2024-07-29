@@ -1,3 +1,4 @@
+import Footer from "../../Componets/Footer/Footer";
 import Cart from "../../Componets/Sheared_Components/Card/Cart";
 import Menu_Item from "../../Componets/Sheared_Components/Menu_Item/Menu_Item";
 import Section_Title from "../../Componets/Sheared_Components/Section_Title/Section_Title";
@@ -56,10 +57,11 @@ const Home = () => {
 				/>
 			</div>
 			{/* Testimonails  */}
-			<div className="container mx-auto">
+			<div className="container mx-auto px-5">
 				<Testimonails />
 			</div>
-			{/* Footer com  */}
+		  {/* Footer com  */}
+		  <Footer />
 		</div>
 	);
 }
